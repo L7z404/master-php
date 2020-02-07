@@ -25,5 +25,7 @@
     
     $randomVar2[] = "Kept you waiting huh?";
     var_dump($randomVar2);
+    
+    echo 'hi';
 
 ?>
