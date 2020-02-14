@@ -53,7 +53,7 @@ if ($edad >= $mayor_edad) {
 
 //--------------------------------------//
 echo "<hr/>";
-$dia = 9;
+$dia = 4;
 
 if ($dia == 1) {
     echo "LUNES";
@@ -120,5 +120,4 @@ echo "<h3>Instruccion 4</h3>";
 aqui:
 echo '<h1>Me he saltado 4 echos<h1>';
 
-echo '<h1>Magnolia es una garra<h1>';
 ?>

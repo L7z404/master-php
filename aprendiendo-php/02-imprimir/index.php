@@ -6,6 +6,7 @@
     </head>
     <body>
         <h1>Master en PHP - Leonel</h1>
+
         
         <!--Atajo para abrir echo php -->
         <?="Something Something Something and Stuff and Stuff And Stuff"?>
