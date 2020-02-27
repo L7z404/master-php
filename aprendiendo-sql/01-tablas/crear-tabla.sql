@@ -20,10 +20,12 @@
 
  crear tabla
  */
- CREATE TABLE usuarios(
-     id         int(11),
-     nombre     varchar(100),
-     apellidos  varchar(100),
-     email      varchar(255),
-     password   varchar(255)
-);
+show tables;
+/*drop table usuarios;*/
+CREATE TABLE usuarios(id         int(11) auto_increment not null,
+                      nombre     varchar(100) not null,
+                      apellidos  varchar(100) default 'hola que tal',
+                      email      varchar(255) not null,
+                      password   varchar(255),
+                      CONSTRAINT pk_usuarios PRIMARY KEY(id));
+describe usuarios;
